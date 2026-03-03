@@ -1,0 +1,166 @@
+{
+  "cik": 19617,
+  "taxonomy": "us-gaap",
+  "tag": "CashAndCashEquivalentsAtCarryingValue",
+  "label": "Cash and Cash Equivalents, at Carrying Value",
+  "description": "Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.",
+  "entityName": "JPMorgan Chase & Co",
+  "units": {
+    "USD": [
+      {
+        "end": "2015-12-31",
+        "val": 361683000000,
+        "accn": "0000019617-19-000054",
+        "fy": 2018,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "frame": "CY2015Q4I"
+      },
+      {
+        "end": "2016-12-31",
+        "val": 391154000000,
+        "accn": "0000019617-18-000092",
+        "fy": 2018,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2018-05-02"
+      },
+      {
+        "end": "2016-12-31",
+        "val": 391154000000,
+        "accn": "0000019617-18-000151",
+        "fy": 2018,
+        "fp": "Q2",
+        "form": "10-Q",
+        "filed": "2018-08-01"
+      },
+      {
+        "end": "2016-12-31",
+        "val": 391154000000,
+        "accn": "0000019617-18-000206",
+        "fy": 2018,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2018-10-31"
+      },
+      {
+        "end": "2016-12-31",
+        "val": 391154000000,
+        "accn": "0000019617-19-000054",
+        "fy": 2018,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "frame": "CY2016Q4I"
+      },
+      {
+        "end": "2017-03-31",
+        "val": 461886000000,
+        "accn": "0000019617-18-000092",
+        "fy": 2018,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2018-05-02",
+        "frame": "CY2017Q1I"
+      },
+      {
+        "end": "2017-06-30",
+        "val": 450526000000,
+        "accn": "0000019617-18-000151",
+        "fy": 2018,
+        "fp": "Q2",
+        "form": "10-Q",
+        "filed": "2018-08-01",
+        "frame": "CY2017Q2I"
+      },
+      {
+        "end": "2017-09-30",
+        "val": 459156000000,
+        "accn": "0000019617-18-000206",
+        "fy": 2018,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2018-10-31",
+        "frame": "CY2017Q3I"
+      },
+      {
+        "end": "2017-12-31",
+        "val": 431304000000,
+        "accn": "0000019617-18-000092",
+        "fy": 2018,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2018-05-02"
+      },
+      {
+        "end": "2017-12-31",
+        "val": 431304000000,
+        "accn": "0000019617-18-000151",
+        "fy": 2018,
+        "fp": "Q2",
+        "form": "10-Q",
+        "filed": "2018-08-01"
+      },
+      {
+        "end": "2017-12-31",
+        "val": 431304000000,
+        "accn": "0000019617-18-000206",
+        "fy": 2018,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2018-10-31"
+      },
+      {
+        "end": "2017-12-31",
+        "val": 431304000000,
+        "accn": "0000019617-19-000054",
+        "fy": 2018,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "frame": "CY2017Q4I"
+      },
+      {
+        "end": "2018-03-31",
+        "val": 414812000000,
+        "accn": "0000019617-18-000092",
+        "fy": 2018,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2018-05-02",
+        "frame": "CY2018Q1I"
+      },
+      {
+        "end": "2018-06-30",
+        "val": 405180000000,
+        "accn": "0000019617-18-000151",
+        "fy": 2018,
+        "fp": "Q2",
+        "form": "10-Q",
+        "filed": "2018-08-01",
+        "frame": "CY2018Q2I"
+      },
+      {
+        "end": "2018-09-30",
+        "val": 419097000000,
+        "accn": "0000019617-18-000206",
+        "fy": 2018,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2018-10-31",
+        "frame": "CY2018Q3I"
+      },
+      {
+        "end": "2018-12-31",
+        "val": 278793000000,
+        "accn": "0000019617-19-000054",
+        "fy": 2018,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "frame": "CY2018Q4I"
+      }
+    ]
+  }
+}
