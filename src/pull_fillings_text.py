@@ -4,9 +4,6 @@ sections from locally cached 10-K HTML files.
 
 Run pull_financials.py first — it downloads the HTML files to data/raw/html/.
 
-Usage:
-    python pull_filings_text.py
-
 Output:
     data/texts/{ticker}/{year}_risk_factors.txt
     data/texts/{ticker}/{year}_mda.txt

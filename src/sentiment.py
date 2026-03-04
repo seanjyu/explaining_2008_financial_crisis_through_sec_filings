@@ -1,5 +1,5 @@
 """
-03_sentiment.py — FinBERT sentiment analysis on Risk Factors and MD&A sections.
+sentiment.py — FinBERT sentiment analysis on Risk Factors and MD&A sections.
 
 Improvements over naive approach:
   1. Scores BOTH Risk Factors and MD&A (Risk Factors extracted well for all firms)
@@ -7,8 +7,6 @@ Improvements over naive approach:
   3. Filters out junk: lines that are mostly numbers, too short, or boilerplate
   4. Reports per-section results for comparison
 
-Usage:
-    python 03_sentiment.py
 
 Requires:
     pip install transformers torch

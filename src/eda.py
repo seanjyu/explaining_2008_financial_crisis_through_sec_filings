@@ -1,5 +1,5 @@
 """
-01_eda.py — Exploratory Data Analysis: 2008 Financial Crisis via SEC EDGAR
+eda.py — Exploratory Data Analysis: 2008 Financial Crisis via SEC EDGAR
 
 Generates 6 annotated charts comparing failed vs. surviving firms
 across quantitative and NLP-derived features from 10-K filings.
