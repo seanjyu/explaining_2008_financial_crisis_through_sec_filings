@@ -1,5 +1,11 @@
 # Explaining 2008 Financial Crisis Through SEC Filings
 
+Summary
+- Scraped and parsed 20 pre-crisis 10-K filings directly from SEC EDGAR using a custom HTML extraction pipeline
+- Failed firms carried 2–3× more leverage than survivors, with Bear Stearns reaching 33.5:1
+- FinBERT sentiment analysis revealed a 15× gap in negative risk language between failed and surviving firms
+- Lehman Brothers decreased crisis-related disclosures while increasing leverage — consistent with the later-discovered Repo 105 deception
+
 Public SEC filings contained detectable warning signs well before the financial collapse of September 2008, when Lehman 
 Brothers filed the largest bankruptcy in U.S. history and the federal government bailed out AIG with $85 billion. Using 
 balance sheet data and basic text analysis of 10-K filings, we can distinguish firms that failed from those that 
@@ -11,29 +17,29 @@ identified which firms were most at risk?
 
 ## Contents
 
-1. [Data Collection & Extraction](#data-collection-and-extraction)
+- [Data Collection & Extraction](#data-collection-and-extraction)
    - [Locating Files](#locating-files)
    - [Downloading 10-K HTML](#downloading-10-k-html)
    - [Extracting Financial Data](#extracting-financial-data)
    - [Extracting Filing Text for NLP](#extracting-filing-text-for-nlp)
-2. [Feature Engineering](#feature-engineering)
+- [Feature Engineering](#feature-engineering)
    - [Quantitative Features](#quantitative-features-from-balance-sheet--income-statement-data)
    - NLP Features
      - [Keyword Counting](#nlp-features---keyword-counting)
      - [FinBERT sentiment](#nlp-features---finbert-sentiment)
-3. [EDA Approach](#eda-approach)
-4. [Key Findings](#key-findings)
+- [EDA Approach](#eda-approach)
+- [Key Findings](#key-findings)
    - [1. Leverage Was A Clear Signal](#1-leverage-was-a-clear-signal)
    - [2. Liquidity Was Evaporating](#2-liquidity-was-evaporating)
    - [3. Filing Language Told Different Stories](#3-filing-language-told-different-stories)
    - [4. Survivors Invested in Risk Disclosure](#4-survivors-invested-in-risk-disclosure)
    - [5. Provisions Showed Who Was Prepping](#5-provisions-showed-who-was-preparing)
    - [6. FinBERT Sentiment Reveals Stark Divide](#6-finbert-sentiment-reveals-stark-divide)
-5. [The Asymmetry Argument](#the-asymmetry-argument)
-6. [Statistical Notes](#statistical-notes)
-7. [Limitations](#limitations)
-8. [Project Structure](#project-structure)
-9. [How to Reproduce](#how-to-reproduce)
+- [The Asymmetry Argument](#the-asymmetry-argument)
+- [Statistical Notes](#statistical-notes)
+- [Limitations](#limitations)
+- [Project Structure](#project-structure)
+- [How to Reproduce](#how-to-reproduce)
 
 ## Data Collection and Extraction
 All data was sourced directly from SEC EDGAR, the SEC's public database of corporate filings. No paid data providers 
@@ -265,7 +271,7 @@ python pull_financials.py        # Download + parse 10-K filings from EDGAR
 python validate_financials.py    # Validate scraped data
 python pull_filings_text.py      # Extract text sections for NLP
 python features.py               # Engineer all features
-python 01_eda.py                 # Generate charts
-python 02_statistics.py          # Run statistical tests
-python 03_sentiment.py           # FinBERT sentiment analysis
+python eda.py                    # Generate charts
+python statistics.py             # Run statistical tests
+python sentiment.py              # FinBERT sentiment analysis
 ```
