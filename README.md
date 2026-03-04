@@ -1,6 +1,6 @@
 # Explaining 2008 Financial Crisis Through SEC Filings
 
-Summary
+## Summary
 - Scraped and parsed 20 pre-crisis 10-K filings directly from SEC EDGAR using a custom HTML extraction pipeline
 - Failed firms carried 2–3× more leverage than survivors, with Bear Stearns reaching 33.5:1
 - FinBERT sentiment analysis revealed a 15× gap in negative risk language between failed and surviving firms
